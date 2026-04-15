@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-sand font-sans text-slate-900 antialiased transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100;
+}
+
+#root {
+  @apply min-h-screen;
+}
+
+::selection {
+  @apply bg-coral/30 text-inherit;
+}
+
+.glass-panel {
+  @apply border border-white/40 bg-white/65 backdrop-blur-xl dark:border-white/10 dark:bg-white/5;
+}
+
+.section-shell {
+  @apply rounded-[2rem] border border-slate-200/80 bg-white/80 p-6 shadow-soft backdrop-blur md:p-8 dark:border-white/10 dark:bg-white/5;
+}
+
+.section-grid {
+  @apply grid gap-4 sm:grid-cols-2 xl:grid-cols-3;
+}
+
+.card-hover {
+  @apply transition duration-300 hover:-translate-y-1 hover:shadow-2xl;
+}
+
+.badge {
+  @apply rounded-full border border-slate-200 bg-white px-3 py-1 text-sm font-semibold text-slate-700 dark:border-white/10 dark:bg-slate-900/80 dark:text-slate-200;
+}

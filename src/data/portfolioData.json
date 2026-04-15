@@ -1,0 +1,111 @@
+{
+  "profile": {
+    "name": "DEEPIKA P",
+    "headline": "Aspiring software developer skilled in C, Python, DBMS, and SQL, eager to build efficient and scalable applications.",
+    "summary": "Passionate full-stack developer focused on creating modern, responsive web applications. Strong in problem-solving, with hands-on experience in React and real-world projects.",
+    "location": "India",
+    "email": "deepikapackiaraj.com",
+    "resumeLabel": "Download Resume", 
+    "resumeLink": "http://localhost:5173/public/assets/resume.pdf",
+    "linkedin": "https://www.linkedin.com/in/deepika-p-6b0161289/",
+    "github": "https://github.com/Deepika-2k7"
+  },
+  "education": [
+    {
+      "degree": "B.E in Computer Science and Engineering",
+      "institution": "Francis Xavier Engineering College",
+      "duration": "2025 - 2029",
+      "gpa": "9.682",
+      "description": "Strong academic foundation with a practical focus on real-world software development."
+    }
+  ],
+  "skillCategories": [
+    {
+      "title": "Frontend",
+      "icon": "frontend",
+      "skills": ["HTML", "Vite", "React"]
+    },
+    {
+      "title": "Backend",
+      "icon": "backend",
+      "skills": ["MongoDB", "SQL"]
+    },
+    {
+      "title": "Tools",
+      "icon": "tools",
+      "skills": ["Git", "GitHub", "VS Code", "Vercel"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Game-Hub",
+      "description": "Game Hub is a responsive website for searching and discovering games with easy filtering and a user-friendly interface.",
+      "techStack": ["React", "Vite", "TypeScript"],
+      "github": "https://github.com/Deepika-2k7/game-hub",
+      "techDocLink": "https://github.com/Deepika-2k7/game-hub#readme",
+      "techDocSummary": "Designed with a modular component system, websocket-based updates, and REST endpoints for board, member, and sprint data."
+    },
+    {
+      "title": "Smart Energy Monitoring System Using IoT and Web Technologies",
+      "description": "A full-stack web application that monitors and analyzes energy usage in real time using simulated IoT sensor data, providing insights and cost estimation to help optimize electricity consumption.",
+      "techStack": ["React", "Tailwind CSS", "Chart.js", "Firebase"],
+      "github": "https://github.com/aarav-mehta/insight-commerce",
+      "techDocLink": "https://example.com/insight-doc",
+      "techDocSummary": "Built around reusable dashboard cards, cached client-side queries, and a clean data pipeline from Firestore collections."
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Python Developer",
+      "issuer": "Sololearn",
+      "link": "http://localhost:5173/public/assets/Sololearn.jpg"
+    },
+    {
+      "title": "Data Science and AI",
+      "issuer": "IITM School Connect",
+      "link": "http://localhost:5173/public/assets/School Connect.jpg"
+    },
+    {
+      "title": "Advanced Diploma in Computer Application",
+      "issuer": "Computer Software College",
+      "link": "http://localhost:5173/public/assets/ADCA.jpg"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Game-Hub Web Development",
+      "year": "2026",
+      "description": "Developed and deployed a responsive Game Hub website for efficient game search and discovery."
+    },
+    {
+      "title": "Embedded System",
+      "year": "2026",
+      "description": "Made a project on “Flame sensing Fire alarm” using Arduino UNO"
+    },
+    {
+      "title": "Google Gemini",
+      "year": "2025",
+      "description": "Developed a game - “City Runner” in Google Game Jam Competition"
+    }
+  ],
+  "codingPractice": [
+    {
+      "platform": "LeetCode",
+      "ranking": "3,959,914",
+      "problemsSolved": "20+",
+      "profileLink": "https://leetcode.com"
+    },
+    {
+      "platform": "HackerRank",
+      "ranking": "2 Star Problem Solving",
+      "problemsSolved": "Total Hackos : 155",
+      "profileLink": "https://www.hackerrank.com"
+    }
+  ],
+  "internship": {
+    "company": "NovaStack Labs",
+    "role": "Web Developer Intern",
+    "duration": "May 2026 - July 2026",
+    "description": "Built responsive dashboard modules, improved accessibility across product flows, and collaborated with the backend team to integrate authenticated APIs."
+  }
+}
