@@ -77,10 +77,10 @@ function ProjectsSection({ projects }) {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: 18 }}
               transition={{ duration: 0.25 }}
-              className="fixed left-1/2 top-1/2 z-[60] max-h-[calc(100vh-1.5rem)] w-[calc(100%-1rem)] max-w-2xl -translate-x-1/2 -translate-y-1/2 overflow-y-auto rounded-[2rem] border border-white/10 bg-slate-950 p-5 text-white shadow-2xl sm:p-6"
+              className="tech-doc-modal fixed left-1/2 top-1/2 z-[60] max-h-[calc(100vh-1.5rem)] w-[calc(100%-1rem)] max-w-2xl -translate-x-1/2 -translate-y-1/2 overflow-y-auto rounded-[2rem] border border-white/10 bg-slate-950 p-5 text-white shadow-2xl sm:p-6"
             >
-              <div className="flex items-start justify-between gap-4">
-                <div>
+              <div className="tech-doc-modal-header flex items-start justify-between gap-4">
+                <div className="min-w-0">
                   <p className="text-xs font-bold uppercase tracking-[0.35em] text-coral">
                     Tech Doc
                   </p>
@@ -97,7 +97,7 @@ function ProjectsSection({ projects }) {
                   <FiX />
                 </button>
               </div>
-              <p className="mt-6 text-sm leading-7 text-slate-300">
+              <p className="tech-doc-modal-body mt-6 text-sm leading-7 text-slate-300">
                 {activeProject.techDocSummary}
               </p>
               <div className="mt-6 flex flex-wrap gap-2">
@@ -114,7 +114,7 @@ function ProjectsSection({ projects }) {
                 href={activeProject.techDocLink}
                 target="_blank"
                 rel="noreferrer"
-                className="mt-8 inline-flex min-h-11 items-center gap-2 rounded-full bg-coral px-5 py-3 text-sm font-semibold text-white transition hover:bg-coral/90"
+                className="tech-doc-modal-link mt-8 inline-flex min-h-11 items-center gap-2 rounded-full bg-coral px-5 py-3 text-sm font-semibold text-white transition hover:bg-coral/90"
               >
                 Open Full Documentation
                 <FiArrowUpRight />

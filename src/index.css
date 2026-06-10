@@ -115,6 +115,32 @@ button {
   .hero-section h1 {
     max-width: 100%;
   }
+
+  .tech-doc-modal {
+    @apply w-[calc(100%-1rem)] max-w-full px-4 py-4;
+  }
+
+  .tech-doc-modal-header {
+    @apply flex-wrap items-start gap-3;
+  }
+
+  .tech-doc-modal-header > div {
+    @apply min-w-0 flex-1;
+  }
+
+  .tech-doc-modal-body {
+    @apply break-words;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .tech-doc-modal-link {
+    @apply w-full max-w-full justify-center text-center;
+  }
+
+  .tech-doc-modal-link svg {
+    flex-shrink: 0;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
