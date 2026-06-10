@@ -12,7 +12,7 @@ function Sidebar({ isOpen, onClose, links }) {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.25 }}
-            className="fixed inset-0 z-40 bg-slate-950/45 backdrop-blur-sm"
+            className="sidebar-backdrop fixed inset-0 z-40 bg-slate-950/45"
             onClick={onClose}
             aria-label="Close navigation overlay"
           />

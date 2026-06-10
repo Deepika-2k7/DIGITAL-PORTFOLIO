@@ -3,7 +3,7 @@ import { FiArrowUpRight, FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 
 function HeroSection({ profile }) {
   return (
-    <section className="hero-section relative overflow-hidden rounded-[2rem] border border-slate-200/70 bg-white/70 px-4 pb-8 pt-24 text-center shadow-soft backdrop-blur sm:px-6 sm:pb-10 sm:pt-28 xl:px-10 dark:border-white/10 dark:bg-white/5">
+    <section className="hero-section relative overflow-hidden rounded-[2rem] border border-slate-200/70 bg-white/70 px-4 pb-8 pt-24 text-center shadow-soft sm:px-6 sm:pb-10 sm:pt-28 xl:px-10 dark:border-white/10 dark:bg-white/5">
       <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-r from-coral/15 via-transparent to-teal/15" />
 
       <div className="hero-content relative grid justify-items-center gap-8 lg:grid-cols-[1.3fr_0.7fr] lg:items-center">
