@@ -73,9 +73,9 @@ function ProjectsSection({ projects }) {
               aria-label="Close tech document modal"
             />
             <motion.div
-              initial={{ opacity: 0, y: 24 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: 18 }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
               transition={{ duration: 0.25 }}
               className="tech-doc-modal fixed left-1/2 top-1/2 z-[60] max-h-[calc(100vh-1.5rem)] w-[calc(100%-1rem)] max-w-2xl -translate-x-1/2 -translate-y-1/2 overflow-y-auto rounded-[2rem] border border-white/10 bg-slate-950 p-5 text-white shadow-2xl sm:p-6"
             >

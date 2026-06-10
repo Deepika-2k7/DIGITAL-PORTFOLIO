@@ -74,6 +74,13 @@ button {
   @apply rounded-full border border-slate-200 bg-white px-3 py-1 text-sm font-semibold text-slate-700 dark:border-white/10 dark:bg-slate-900/80 dark:text-slate-200;
 }
 
+.tech-doc-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @media (max-width: 767px) {
   .section-shell {
     @apply rounded-[1.5rem] p-4;
