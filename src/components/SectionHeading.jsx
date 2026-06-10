@@ -9,14 +9,14 @@ function SectionHeading({ eyebrow, title, description }) {
       transition={{ duration: 0.5 }}
       className="mb-6"
     >
-      <p className="mb-2 text-xs font-bold uppercase tracking-[0.35em] text-coral">
+      <p className="mb-2 text-[0.7rem] font-bold uppercase tracking-[0.3em] text-coral sm:text-xs sm:tracking-[0.35em]">
         {eyebrow}
       </p>
-      <h2 className="font-display text-3xl font-semibold text-slate-900 dark:text-white md:text-4xl">
+      <h2 className="font-display text-[clamp(1.8rem,5vw,2.75rem)] font-semibold leading-[1.1] text-slate-900 dark:text-white">
         {title}
       </h2>
       {description ? (
-        <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600 dark:text-slate-300 md:text-base">
+        <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600 dark:text-slate-300 sm:text-base">
           {description}
         </p>
       ) : null}

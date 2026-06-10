@@ -10,7 +10,7 @@ function AchievementsSection({ achievements }) {
         description="Highlights from hackathons, contests, and community contributions presented in a simple visual timeline."
       />
 
-      <div className="relative ml-2 border-l border-slate-300 pl-6 dark:border-white/10">
+      <div className="relative ml-1 border-l border-slate-300 pl-5 sm:ml-2 sm:pl-6 dark:border-white/10">
         {achievements.map((achievement, index) => (
           <motion.article
             key={`${achievement.title}-${achievement.year}`}
@@ -20,10 +20,10 @@ function AchievementsSection({ achievements }) {
             transition={{ duration: 0.45, delay: index * 0.08 }}
             className="relative pb-10 last:pb-0"
           >
-            <span className="absolute -left-[2.05rem] top-1 h-4 w-4 rounded-full border-4 border-sand bg-coral dark:border-slate-950" />
+            <span className="absolute -left-[1.8rem] top-1 h-4 w-4 rounded-full border-4 border-sand bg-coral dark:border-slate-950 sm:-left-[2.05rem]" />
             <div className="rounded-[1.5rem] border border-slate-200/80 bg-slate-50/80 p-5 dark:border-white/10 dark:bg-slate-900/60">
               <div className="flex flex-wrap items-center justify-between gap-3">
-                <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
+                <h3 className="text-base font-semibold text-slate-900 dark:text-white sm:text-lg">
                   {achievement.title}
                 </h3>
                 <span className="badge">{achievement.year}</span>

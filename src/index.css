@@ -8,12 +8,46 @@ html {
   scroll-behavior: smooth;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+#root {
+  overflow-x: hidden;
+}
+
 body {
   @apply bg-sand font-sans text-slate-900 antialiased transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 #root {
   @apply min-h-screen;
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+span,
+li,
+button {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 ::selection {
@@ -38,4 +72,41 @@ body {
 
 .badge {
   @apply rounded-full border border-slate-200 bg-white px-3 py-1 text-sm font-semibold text-slate-700 dark:border-white/10 dark:bg-slate-900/80 dark:text-slate-200;
+}
+
+@media (max-width: 767px) {
+  .section-shell {
+    @apply rounded-[1.5rem] p-4;
+  }
+
+  .hero-section {
+    @apply flex min-h-[calc(100svh-6.5rem)] items-center px-4 py-8;
+  }
+
+  .hero-content {
+    @apply w-full place-items-center gap-6 text-center;
+  }
+
+  .hero-copy {
+    @apply flex max-w-xl flex-col items-center;
+  }
+
+  .hero-actions {
+    @apply w-full items-stretch;
+  }
+
+  .hero-quick {
+    @apply w-full max-w-xl justify-self-center;
+  }
+
+  .hero-quick a {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .section-shell {
+    @apply p-6;
+  }
 }

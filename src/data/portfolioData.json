@@ -4,7 +4,7 @@
     "headline": "Aspiring software developer skilled in C, Python, DBMS, and SQL, eager to build efficient and scalable applications.",
     "summary": "Passionate full-stack developer focused on creating modern, responsive web applications. Strong in problem-solving, with hands-on experience in React and real-world projects.",
     "location": "India",
-    "email": "deepikapackiaraj.com",
+    "email": "deepikapackiaraj@gmail.com",
     "resumeLabel": "Download Resume", 
     "resumeLink": "http://localhost:5173/public/assets/resume.pdf",
     "linkedin": "https://www.linkedin.com/in/deepika-p-6b0161289/",
@@ -17,9 +17,28 @@
       "duration": "2025 - 2029",
       "gpa": "9.682",
       "description": "Strong academic foundation with a practical focus on real-world software development."
+    },
+    {
+      "degree": "Class XII (Higher Secondary)",
+      "institution": "STACG HI-TECH SCHOOL (CBSE)",
+      "duration": "2023 - 2025",
+      "gpa": "Percentage: 77%",
+      "description": "Built a strong foundation in Mathematics, Physics, and Computer Science while developing analytical and problem-solving skills."
+    },
+    {
+     "degree": "Class X (SSLC)",
+     "institution": "ST. ASSISI MATRIC HR.SEC.SCHOOL",
+      "duration": "2023",
+      "gpa": "Percentage: 92%",
+      "description": "Developed a strong academic foundation across core subjects while enhancing analytical thinking, problem-solving, and communication skills."
     }
   ],
   "skillCategories": [
+    {
+      "title": "Programming Languages",
+      "icon": "programming",
+      "skills": ["C", "C++", "Python"]
+    },
     {
       "title": "Frontend",
       "icon": "frontend",
@@ -28,7 +47,12 @@
     {
       "title": "Backend",
       "icon": "backend",
-      "skills": ["MongoDB", "SQL"]
+      "skills": ["Node.js"]
+    },
+    {
+      "title": "Database",
+      "icon": "database",
+      "skills": ["MySQL", "MongoDB"]
     },
     {
       "title": "Tools",
@@ -49,12 +73,22 @@
       "title": "Smart Energy Monitoring System Using IoT and Web Technologies",
       "description": "A full-stack web application that monitors and analyzes energy usage in real time using simulated IoT sensor data, providing insights and cost estimation to help optimize electricity consumption.",
       "techStack": ["React", "Tailwind CSS", "Chart.js", "Firebase"],
-      "github": "https://github.com/aarav-mehta/insight-commerce",
-      "techDocLink": "https://example.com/insight-doc",
+      "github": "https://github.com/Deepika-2k7/Smart-Energy-Monitoring-System",
+      "techDocLink": "https://github.com/Deepika-2k7/Smart-Energy-Monitoring-System/blob/main/README.md",
       "techDocSummary": "Built around reusable dashboard cards, cached client-side queries, and a clean data pipeline from Firestore collections."
     }
   ],
   "certificates": [
+    {
+      "title": "Top Prompt Creator",
+      "issuer": "Google Gemini AI",
+      "link": "http://localhost:5173/public/assets/Top Prompt Creator Game Night.jpg"
+    },
+    {
+      "title": "Python Essentials 1",
+      "issuer": "Cisco Networking Academy",
+      "link": "http://localhost:5173/public/assets/Python Essentials 1.jpg"
+    },
     {
       "title": "Python Developer",
       "issuer": "Sololearn",
@@ -73,9 +107,14 @@
   ],
   "achievements": [
     {
-      "title": "Game-Hub Web Development",
+      "title": "Cisco Virtual Internship",
       "year": "2026",
-      "description": "Developed and deployed a responsive Game Hub website for efficient game search and discovery."
+      "description": "Recognized as a top prompt creator in the Google Game Jam competition for innovative game design and development."
+    },
+    {
+      "title": "Game-Hub Website",
+      "year": "2026",
+      "description": "Successfully Developed and deployed a responsive Game Hub website for efficient game search and discovery."
     },
     {
       "title": "Embedded System",
@@ -91,8 +130,8 @@
   "codingPractice": [
     {
       "platform": "LeetCode",
-      "ranking": "3,959,914",
-      "problemsSolved": "20+",
+      "ranking": "2,604,952",
+      "problemsSolved": "45+",
       "profileLink": "https://leetcode.com"
     },
     {
@@ -103,9 +142,9 @@
     }
   ],
   "internship": {
-    "company": "NovaStack Labs",
-    "role": "Web Developer Intern",
-    "duration": "May 2026 - July 2026",
-    "description": "Built responsive dashboard modules, improved accessibility across product flows, and collaborated with the backend team to integrate authenticated APIs."
+    "company": "YuvaIntern",
+    "role": "Junior Full Stack Developer Intern",
+    "duration": "Apr 2026 - Jun 2026",
+    "description": "Developed a Full-Stack web application by building frontend interfaces, integrating backend APIs, designing system architecture, and performing testing, optimization, deployment, and maintenance."
   }
 }

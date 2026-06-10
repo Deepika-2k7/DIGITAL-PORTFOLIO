@@ -21,9 +21,9 @@ function Sidebar({ isOpen, onClose, links }) {
             animate={{ x: 0 }}
             exit={{ x: "-100%" }}
             transition={{ type: "spring", stiffness: 280, damping: 30 }}
-            className="fixed left-0 top-0 z-50 flex h-full w-[84%] max-w-sm flex-col bg-slate-950 px-5 pb-8 pt-6 text-white shadow-2xl"
+            className="fixed left-0 top-0 z-50 flex h-full w-[min(88vw,22rem)] max-w-sm flex-col bg-slate-950 px-4 pb-8 pt-6 text-white shadow-2xl sm:px-5"
           >
-            <div className="mb-10 flex items-center justify-between">
+            <div className="mb-10 flex items-start justify-between gap-4">
               <div>
                 <p className="font-display text-3xl font-semibold">Navigate</p>
                 <p className="mt-1 text-sm text-slate-400">Jump to any section</p>

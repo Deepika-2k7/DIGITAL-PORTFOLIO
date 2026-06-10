@@ -58,6 +58,7 @@ function HomePage() {
         onMenuClick={() => setIsSidebarOpen(true)}
         isDarkMode={isDarkMode}
         onToggleTheme={() => setIsDarkMode((current) => !current)}
+        isSidebarOpen={isSidebarOpen}
       />
       <Sidebar
         isOpen={isSidebarOpen}
@@ -65,7 +66,7 @@ function HomePage() {
         links={navLinks}
       />
 
-      <main className="mx-auto flex w-full max-w-7xl flex-col gap-8 px-4 pb-14 pt-24 sm:px-6">
+      <main className="mx-auto flex w-full max-w-7xl flex-col gap-6 overflow-x-hidden px-4 pb-12 pt-24 sm:gap-8 sm:px-6 sm:pb-14 sm:pt-28 lg:px-8">
         <HeroSection profile={portfolioData.profile} />
 
         <motion.div

@@ -27,18 +27,18 @@ function SkillsSection({ categories }) {
               initial={{ opacity: 0, y: 18 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
-              transition={{ duration: 0.45, delay: index * 0.08 }}
-              className="card-hover rounded-[1.75rem] border border-slate-200/80 bg-slate-50/80 p-6 dark:border-white/10 dark:bg-slate-900/60"
+            transition={{ duration: 0.45, delay: index * 0.08 }}
+              className="card-hover rounded-[1.75rem] border border-slate-200/80 bg-slate-50/80 p-5 sm:p-6 dark:border-white/10 dark:bg-slate-900/60"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-coral/10 text-coral">
                 <Icon className="text-2xl" />
               </div>
-              <h3 className="mt-5 text-xl font-semibold text-slate-900 dark:text-white">
+              <h3 className="mt-5 text-lg font-semibold text-slate-900 dark:text-white sm:text-xl">
                 {category.title}
               </h3>
               <div className="mt-5 flex flex-wrap gap-2">
                 {category.skills.map((skill) => (
-                  <span key={skill} className="badge">
+                  <span key={skill} className="badge max-w-full">
                     {skill}
                   </span>
                 ))}
