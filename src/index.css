@@ -117,25 +117,25 @@ button {
   }
 
   .tech-doc-modal {
-    @apply w-[calc(100%-1rem)] max-w-full px-4 py-4;
+    @apply w-[calc(100%-1rem)] max-w-full px-4 py-4 text-center;
   }
 
   .tech-doc-modal-header {
-    @apply flex-wrap items-start gap-3;
+    @apply flex-wrap items-start justify-center gap-3;
   }
 
   .tech-doc-modal-header > div {
-    @apply min-w-0 flex-1;
+    @apply min-w-0 flex-1 text-center;
   }
 
   .tech-doc-modal-body {
-    @apply break-words;
+    @apply break-words text-center;
     overflow-wrap: break-word;
     word-break: break-word;
   }
 
   .tech-doc-modal-link {
-    @apply w-full max-w-full justify-center text-center;
+    @apply mx-auto flex w-full max-w-full justify-center text-center;
   }
 
   .tech-doc-modal-link svg {
