@@ -5,7 +5,7 @@
     "summary": "Passionate full-stack developer focused on creating modern, responsive web applications. Strong in problem-solving, with hands-on experience in React and real-world projects.",
     "email": "deepikapackiaraj@gmail.com",
     "resumeLabel": "Download Resume", 
-    "resumeLink": "http://localhost:5173/public/assets/resume.pdf",
+    "resumeLink": "/assets/resume.pdf",
     "linkedin": "https://www.linkedin.com/in/deepika-p-6b0161289/",
     "github": "https://github.com/Deepika-2k7"
   },
@@ -81,27 +81,27 @@
     {
       "title": "Top Prompt Creator",
       "issuer": "Google Gemini AI",
-      "link": "http://localhost:5173/public/assets/Top Prompt Creator Game Night.jpg"
+      "link": "/images/Top Prompt Creator Game Night.jpg"
     },
     {
       "title": "Python Essentials 1",
       "issuer": "Cisco Networking Academy",
-      "link": "http://localhost:5173/public/assets/Python Essentials 1.jpg"
+      "link": "/images/Python Essentials 1.jpg"
     },
     {
       "title": "Python Developer",
       "issuer": "Sololearn",
-      "link": "http://localhost:5173/public/assets/Sololearn.jpg"
+      "link": "/images/Sololearn.jpg"
     },
     {
       "title": "Data Science and AI",
       "issuer": "IITM School Connect",
-      "link": "http://localhost:5173/public/assets/School Connect.jpg"
+      "link": "/images/School Connect.jpg"
     },
     {
       "title": "Advanced Diploma in Computer Application",
       "issuer": "Computer Software College",
-      "link": "http://localhost:5173/public/assets/ADCA.jpg"
+      "link": "/images/ADCA.jpg"
     }
   ],
   "achievements": [
