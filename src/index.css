@@ -80,7 +80,7 @@ button {
   }
 
   .hero-section {
-    @apply flex min-h-[calc(100svh-6.5rem)] items-center px-4 py-8;
+    @apply flex min-h-[calc(100svh-6.5rem)] items-center overflow-hidden px-4 py-8;
   }
 
   .hero-content {
@@ -88,7 +88,7 @@ button {
   }
 
   .hero-copy {
-    @apply flex max-w-xl flex-col items-center;
+    @apply flex w-full max-w-full flex-col items-center;
   }
 
   .hero-actions {
@@ -96,12 +96,24 @@ button {
   }
 
   .hero-quick {
-    @apply w-full max-w-xl justify-self-center;
+    @apply w-full max-w-full justify-self-center;
   }
 
   .hero-quick a {
     justify-content: center;
     text-align: center;
+  }
+
+  .hero-section h1,
+  .hero-section p,
+  .hero-section a,
+  .hero-section span {
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .hero-section h1 {
+    max-width: 100%;
   }
 }
 
